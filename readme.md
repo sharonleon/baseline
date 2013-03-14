@@ -9,8 +9,9 @@ Before anything at all, make sure you have RVM installed and that your `.rvmrc` 
 3. change .rvmrc
 4. cd up then cd in again. (i.e. `cd ..` and then `cd <appname>`)
 5. tell RVM to do it's magic (choose 'Y')
+
 6. now change the name of the app (I use sublime and I find&replace for 'baseline' and replace it with the app name). **Note!!** it's important to note lower-case/upper-case, e.g. where it's Baseline it should stay with Capital B.
----
+
 
 SET UP Upstream if you want to get changes from the baseline
 
