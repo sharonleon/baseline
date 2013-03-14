@@ -4,7 +4,24 @@ Before anything at all, make sure you have RVM installed and that your `.rvmrc` 
 
 	rvm --create use "ruby-1.9.3@baseline"
 
-don't forget to change `baseline` below to your appname (or whatever name you'd like)
+1. Don't forget to change `baseline` above to your appname (or whatever name you'd like)
+2. make sure that when changing directory into the app top-level directory RVM will kick in, tell RVM not too. (choose 'N')
+3. change .rvmrc
+4. cd up then cd in again. (i.e. `cd ..` and then `cd <appname>`)
+5. tell RVM to do it's magic (choose 'Y')
+
+6. now change the name of the app (I use sublime and I find&replace for 'baseline' and replace it with the app name). **Note!!** it's important to note lower-case/upper-case, e.g. where it's Baseline it should stay with Capital B.
+
+
+SET UP Upstream if you want to get changes from the baseline
+
+	1. git remote add upstream https://github.com/sharonleon/baseline.git
+	2. git fetch upstream
+	3. git merge upstream/master 
+	
+now commit the changes fetched from Upstream.
+
+
 
 -----
 	
