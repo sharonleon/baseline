@@ -15,8 +15,11 @@ it's waiting commented on routes.rb
 	
 	root :to => "home#index"
 	
+If you decide to take the add_default_MVC branch (it's in by default), you'll get default devised model and controller as well as `root:to => "home#index"` index action on the controller. You'll need to run `bundle exec rake db:migrate`
 
+     bundle exec rake db:migrate
      
+
 
 .
 
