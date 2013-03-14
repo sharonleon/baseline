@@ -1,9 +1,12 @@
 Run the following commands after cloning or forking:
 ===
-Before anything at all, make sure you have RVM installed and that your `.rvmrc` file is set up with: don't forget to change `baseline` below to your appname (or whatever name you'd like)
+Before anything at all, make sure you have RVM installed and that your `.rvmrc` file is set up with: 
 
 	rvm --create use "ruby-1.9.3@baseline"
 
+don't forget to change `baseline` below to your appname (or whatever name you'd like)
+
+-----
 	
 Install all gems
 
