@@ -17,8 +17,16 @@ it's waiting commented on routes.rb
 	
 If you decide to take the add_default_MVC branch (it's in by default), you'll get default devised model and controller as well as `root:to => "home#index"` index action on the controller. You'll need to run `bundle exec rake db:migrate`
 
-     bundle exec rake db:migrate
+    bundle exec rake db:migrate
      
+Now you should be able to start the rails server
+	
+	rails s
+
+and access it via your browser
+	
+	localhost:3000
+
 
 
 .
